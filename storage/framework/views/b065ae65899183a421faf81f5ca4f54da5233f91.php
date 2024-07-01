@@ -1,0 +1,1 @@
+<?php /**PATH F:\xampp\htdocs\tinyhugs\resources\views/admin/elements/quick_links.blade.php ENDPATH**/ ?>

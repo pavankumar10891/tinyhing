@@ -1,0 +1,27 @@
+<?php 
+config::set("Admin.email", "owebest01@gmail.com");
+config::set("Contact.address", "Head Office: 815 Hornby St #203, Vancouver, BC V6Z 2E6, Canada");
+config::set("Contact.email", "support@tinyhugs.net");
+config::set("Contact.phone_number", "(647) 670-0541");
+config::set("Facebook.app_id", "");
+config::set("Facebook.toen", "");
+config::set("Reading.date_format", "m/d/Y");
+config::set("Reading.date_time_format", "m/d/Y h:i A");
+config::set("Reading.records_per_page", "10");
+config::set("Site.admin_nanny_booking_email", "tinyhug@mailinator.com");
+config::set("Site.contact_us_email", "floriyajane@mailinator.com");
+config::set("Site.estimation_price_canada", "15");
+config::set("Site.estimation_price_usa", "11");
+config::set("Site.free_call", "(00) 82646746383");
+config::set("Site.from_email", "owebest01@gmail.com");
+config::set("Site.invoice_tax_percentage", "30");
+config::set("Site.nanny_default_price_for_canada", "11");
+config::set("Site.nanny_default_price_for_us", "15");
+config::set("Site.number_of_children", "683");
+config::set("Site.number_of_nannies", "287");
+config::set("Site.satified_clients", "549");
+config::set("Site.title", "Tiny Hugs");
+config::set("Site.to_email", "tinyhug@mailinator.com");
+config::set("Social.facebook_url", "https://www.facebook.com/");
+config::set("Social.twitter_url", "https://twitter.com");
+config::set("Social.youtube_url", "https://www.youtube.com/");

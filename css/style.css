@@ -1,0 +1,295 @@
+[class*="bg-"] .symbol.statsCount .symbol-label {
+    background-color: rgba(255, 255, 255, 0.278);
+    color: #fff;
+}
+
+.symbol.statsCount .symbol-label {
+    background-color: rgba(24, 28, 50, 0.171);
+    color: rgba(24, 28, 50, 0.588);
+}
+
+.symbol.statsCount {
+    position: absolute;
+    right: 2.5rem;
+    top: 2rem;
+}
+
+.dataTables_wrapper .dataTable tr th,
+.dataTables_wrapper .dataTable tr td:last-child {
+    white-space: nowrap;
+}
+
+.magnific-image,
+.fancybox-buttons {
+    cursor: zoom-in;
+}
+
+.form-control-solid+.select2 {
+    background-color: #F3F6F9;
+    border-color: #F3F6F9;
+}
+
+.form-control-lg+.select2 {
+    height: 44px;
+    border-radius: 4px;
+}
+
+.form-control-lg+.select2.select2-container--default .select2-selection--single,
+.form-control-lg+.select2.select2-container--default .select2-selection--multiple {
+    height: 44px;
+    background-color: transparent;
+    border: none;
+}
+
+.form-control-lg+.select2.select2-container--default .select2-selection--multiple .select2-selection__rendered .select2-selection__choice {
+    background: #ffffff;
+}
+
+.job-location {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.r-location {
+    color: #3F4254;
+    padding: 10px;
+    border: solid 1px #F3F6F9;
+    background-color: #F3F6F9;
+    flex: 1;
+    border-radius: 4px;
+    height: calc(1.5em + 1.65rem + 2px);
+    display: flex;
+    align-items: center;
+}
+
+.r-location .fa {
+    margin-right: 10px;
+}
+
+.r-location.danger {
+    color: #741226;
+    border-color: #ff9baf;
+    background: #fff2f4;
+}
+
+.r-location.success {
+    color: rgb(14, 94, 14);
+    border-color: rgb(176, 255, 176);
+    background: #ddffde;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    display: flex;
+    align-items: center;
+}
+
+.timeline.timeline-6 .timeline-item .timeline-label {
+    width: 130px;
+}
+
+.timeline.timeline-6:before {
+    left: 130.5px;
+}
+
+.faq-block .accordion .card {
+    margin-bottom: 10px;
+    border: 0;
+}
+
+.faq-block .accordion .card-header a {
+    color: #473cef;
+    font-size: 16px;
+}
+
+.faq-block .accordion .card .card-header {
+    border: 1px solid #999 !important;
+    background: #f0f0f0;
+    padding: 10px 16px;
+    border-radius: 7px;
+}
+
+.faq-block .accordion .card-body {
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: 1px solid #999 !important;
+}
+
+.faq-block .accordion .card-body p {
+    font-size: 15px;
+    color: #333;
+    letter-spacing: 0.2px;
+    line-height: 27px;
+}
+
+
+.accordion.accordion-toggle-arrow .card .card-header .card-title:after {
+    content: "\2212";
+    color: #fff;
+    font-size: 15px;
+    background: #1a1a27;
+    padding: 3px;
+    width: 22px;
+    line-height: 18px;
+    border-radius: 70px;
+    height: 22px;
+    text-align: center;
+}
+
+.accordion.accordion-toggle-arrow .card .card-header .card-title.collapsed:after {
+    content: "\002B";
+    color: #fff;
+    font-size: 15px;
+}
+
+.faq-block .accordion .card-header:after {
+
+
+    color: #1e1e2d;
+    vertical-align: middle;
+    font-size: 13px;
+    float: right;
+    position: absolute;
+    top: 13px;
+    right: 19px;
+}
+
+
+.accordion.accordion-toggle-arrow .card .card-header .card-title.collapsed:after {
+    transform: rotate(0deg);
+}
+
+
+
+.faq-block .accordion .card .card-header .card-title {
+    padding: 0 !important;
+    color: #1e1e2d;
+    font-size: 17px;
+}
+
+.faq-block .search-bx {
+    position: relative;
+    display: inline-block;
+}
+
+.faq-block .search-bx input {
+    width: 269px;
+    border-radius: 5px;
+    padding: 7px 12px;
+    font-size: 17px;
+    border: 1px solid #666;
+}
+
+.faq-block .search-bx input:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.faq-block .search-bx svg {
+    width: 16px;
+    position: absolute;
+    right: 0;
+    color: #000;
+    top: 14px;
+    right: 10px;
+}
+
+
+.faq-block .styled-checkbox {
+    position: absolute;
+    opacity: 0;
+}
+
+.faq-block .styled-checkbox+label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+    color: #1a1a27;
+}
+
+.faq-block .styled-checkbox+label:before {
+    content: "";
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    border-radius: 3px;
+    width: 18px;
+    height: 18px;
+    background: white;
+    border: #333 solid 1px;
+}
+
+.faq-block .styled-checkbox:hover+label:before {
+    background: #fff;
+}
+
+.faq-block .styled-checkbox:checked+label:before {
+    background: #fff;
+}
+
+.faq-block .styled-checkbox:disabled+label {
+    color: #b8b8b8;
+    cursor: auto;
+}
+
+.faq-block .styled-checkbox:disabled+label:before {
+    box-shadow: none;
+    background: #ddd;
+}
+
+.faq-block .styled-checkbox:checked+label:after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 9px;
+    background: #333;
+    width: 2px;
+    height: 2px;
+    box-shadow: 2px 0 0 #333, 4px 0 0 #333, 4px -2px 0 #333, 4px -4px 0 #333, 4px -6px 0 #333, 4px -8px 0 #333;
+    transform: rotate(45deg);
+}
+
+input[type="radio"],
+input[type="checkbox"]:focus {
+    outline: 0;
+}
+
+.faq-block .heading h3 {
+    font-size: 17px;
+    margin: 0;
+    font-weight: 600;
+    color: #1a1a27;
+    padding: 20px 0;
+    text-transform: capitalize;
+}
+
+.faq-block .form-check {
+    line-height: 23px;
+    margin: 0;
+    padding: 0px;
+}
+
+.faq-block input[type="radio"],
+.faq-block input[type="checkbox"] {
+    display: none;
+}
+
+.editDelete_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.editDelete_list .remove-certificate {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #f64e60;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 4px;
+}
